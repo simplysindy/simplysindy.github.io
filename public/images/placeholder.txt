@@ -1,0 +1,6 @@
+Replace with your own project images:
+- placeholder1.jpg (for Sample Project 1)
+- placeholder2.jpg (for Sample Project 2)  
+- placeholder3.jpg (for Sample Project 3)
+
+Add more images as needed for your projects.

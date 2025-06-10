@@ -1,0 +1,4 @@
+Replace with your own images:
+- profile.jpg (main profile photo)
+- profileAlt.png (alternate profile photo)
+- splash.png (background image for hero section)
