@@ -215,9 +215,7 @@ const Contact = () => {
               </ContactIcon>
               <ContactDetail>
                 <h4>LinkedIn</h4>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  LinkedIn Profile
-                </a>
+                <p>LinkedIn Profile</p>
               </ContactDetail>
             </ContactMethod>
 
@@ -232,9 +230,7 @@ const Contact = () => {
               </ContactIcon>
               <ContactDetail>
                 <h4>Bluesky</h4>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  @sindy
-                </a>
+                <p>@sindy</p>
               </ContactDetail>
             </ContactMethod>
             

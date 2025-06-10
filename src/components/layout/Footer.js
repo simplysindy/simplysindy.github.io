@@ -39,12 +39,6 @@ const Footer = () => {
         <SocialLink href="https://github.com/simplysindy" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-github"></i>
         </SocialLink>
-        <SocialLink href="#" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-linkedin"></i>
-        </SocialLink>
-        <SocialLink href="#" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-square-bluesky"></i>
-        </SocialLink>
       </SocialLinks>
       <Copyright>© {currentYear} Sindy. All rights reserved.</Copyright>
     </FooterContainer>

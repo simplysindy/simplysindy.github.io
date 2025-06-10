@@ -217,7 +217,7 @@ const About = () => {
             viewport={{ once: true }}
           >
             Currently exploring new opportunities and building exciting projects.
-            Feel free to connect with me on <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+            Feel free to connect with me on LinkedIn.
           </AboutText>
           
           <SkillsContainer
