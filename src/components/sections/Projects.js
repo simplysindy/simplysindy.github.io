@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import { motion, AnimatePresence } from 'framer-motion';
 import { IconArrowLeft, IconArrowRight } from '@tabler/icons-react';
@@ -162,7 +162,6 @@ const Projects = () => {
   ];
 
   const [active, setActive] = useState(0);
-  const [autoplay, setAutoplay] = useState(false);
 
   const handleNext = () => {
     setActive((prev) => (prev + 1) % projects.length);
@@ -172,14 +171,6 @@ const Projects = () => {
     setActive((prev) => (prev - 1 + projects.length) % projects.length);
   };
 
-  useEffect(() => {
-    if (autoplay) {
-      const interval = setInterval(() => {
-        setActive((prev) => (prev + 1) % projects.length);
-      }, 6000);
-      return () => clearInterval(interval);
-    }
-  }, [autoplay, projects.length]);
 
   const randomRotateY = () => {
     return Math.floor(Math.random() * 41) - 20;
