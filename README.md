@@ -1,10 +1,13 @@
 # Personal Portfolio Website
 
-A modern, responsive personal portfolio website built with React, currently featuring the following sections:
+A modern, responsive personal portfolio website built with React for GitHub Pages deployment. This is currently a **draft version** being customized for my personal use.
+
+## Current Status: 🚧 Work in Progress
+
+This portfolio template includes the following sections:
 - About Me
 - Projects
 - Blog
-- Projects
 - Publications
 - Contact information
 
@@ -36,7 +39,7 @@ A modern, responsive personal portfolio website built with React, currently feat
 
 1. Clone the repository
 ```
-git clone https://github.com/benjaminchew/benjaminchew.github.io.git
+git clone https://github.com/simplysindy/simplysindy.github.io.git
 ```
 
 2. Install dependencies
@@ -78,7 +81,7 @@ npm install --save gh-pages
 
 2. Add the following to your `package.json`:
 ```json
-"homepage": "https://github.com/benjaminchew/benjaminchew.github.io.git",
+"homepage": "https://simplysindy.github.io",
 "scripts": {
   // other scripts
   "predeploy": "npm run build",
@@ -95,7 +98,46 @@ npm run deploy
 
 This project is currently open source and available under the [MIT License](LICENSE). This may be subject to change in the future.
 
+## Customization Needed
+
+### ⚠️ Items to Update Before Going Live:
+
+1. **Personal Information**
+   - Replace `[Your Name]` placeholders throughout the site
+   - Update bio and professional background in About section
+   - Add your location and contact details
+
+2. **Images** 
+   - Add profile photos to `src/assets/images/`
+   - Add project images to `public/images/`
+   - Current placeholders need to be replaced
+
+3. **Projects**
+   - Replace sample projects with your actual work
+   - Update project descriptions, technologies, and links
+
+4. **Content**
+   - Write your own blog posts in `public/posts/`
+   - Update publications in `public/publications.bib`
+   - Customize skills and technologies list
+
+5. **Contact Form**
+   - Set up EmailJS credentials in Contact component
+   - Update social media links in Footer and Contact
+
+6. **Styling** (Optional)
+   - Customize color scheme and animations
+   - Modify component styling to match your preferences
+
+## Deployment
+
+This site is automatically deployed to GitHub Pages via GitHub Actions.
+Any push to the `main` branch will trigger a new deployment.
+
+Live site: https://simplysindy.github.io
+
 ## Acknowledgments
 
-- Design inspiration from various portfolio websites
+- Original template design by [Benjamin Chew](https://github.com/benjaminchew/benjaminchew.github.io) - Thank you for the excellent foundation!
 - Icons from Font Awesome
+- Built with React and deployed via GitHub Pages
