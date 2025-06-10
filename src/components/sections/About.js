@@ -198,7 +198,7 @@ const About = () => {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            [Your professional background and interests go here].
+            I'm a passionate developer who enjoys creating innovative solutions and exploring new technologies.
           </AboutText>
           
           <AboutText
@@ -207,7 +207,7 @@ const About = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            [Describe your career transition and current focus areas]. 
+            I'm focused on building meaningful projects and continuously learning new skills in software development. 
           </AboutText>
 
           <AboutText
@@ -216,8 +216,8 @@ const About = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Currently based at [Your Location/Company], work-related information can be viewed on
-            my <a href="[Your LinkedIn URL]" target="_blank" rel="noopener noreferrer">LinkedIn</a> profile.
+            Currently exploring new opportunities and building exciting projects.
+            Feel free to connect with me on <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
           </AboutText>
           
           <SkillsContainer

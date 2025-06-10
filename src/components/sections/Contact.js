@@ -215,8 +215,8 @@ const Contact = () => {
               </ContactIcon>
               <ContactDetail>
                 <h4>LinkedIn</h4>
-                <a href="[Your LinkedIn URL]" target="_blank" rel="noopener noreferrer">
-                  [Your LinkedIn]
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  LinkedIn Profile
                 </a>
               </ContactDetail>
             </ContactMethod>
@@ -232,8 +232,8 @@ const Contact = () => {
               </ContactIcon>
               <ContactDetail>
                 <h4>Bluesky</h4>
-                <a href="[Your Social Media URL]" target="_blank" rel="noopener noreferrer">
-                  [Your Handle]
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  @sindy
                 </a>
               </ContactDetail>
             </ContactMethod>
@@ -249,7 +249,7 @@ const Contact = () => {
               </ContactIcon>
               <ContactDetail>
                 <h4>Location</h4>
-                <p>[Your Location]</p>
+                <p>Available Remotely</p>
               </ContactDetail>
             </ContactMethod>
           </ContactMethods>

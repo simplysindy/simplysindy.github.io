@@ -36,17 +36,17 @@ const Footer = () => {
   return (
     <FooterContainer>
       <SocialLinks>
-        <SocialLink href="[Your GitHub URL]" target="_blank" rel="noopener noreferrer">
+        <SocialLink href="https://github.com/simplysindy" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-github"></i>
         </SocialLink>
-        <SocialLink href="[Your LinkedIn URL]" target="_blank" rel="noopener noreferrer">
+        <SocialLink href="#" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-linkedin"></i>
         </SocialLink>
-        <SocialLink href="[Your Social Media URL]" target="_blank" rel="noopener noreferrer">
+        <SocialLink href="#" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-square-bluesky"></i>
         </SocialLink>
       </SocialLinks>
-      <Copyright>© {currentYear} [Your Name]. All rights reserved.</Copyright>
+      <Copyright>© {currentYear} Sindy. All rights reserved.</Copyright>
     </FooterContainer>
   );
 };

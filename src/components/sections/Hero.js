@@ -69,14 +69,14 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        Hello, I'm [Your Name].
+        Hello, I'm Sindy.
       </Title>
       <Subtitle
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        [Your professional tagline or description goes here].
+        Welcome to my portfolio. I'm passionate about technology and creating innovative solutions.
       </Subtitle>
       <motion.div
         initial={{ opacity: 0, y: -20 }}
