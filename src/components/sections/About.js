@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import profileImage from '../../assets/images/profile.jpg';
-import alternateImage from '../../assets/images/profileAlt.png';
 
 const AboutSection = styled.section`
   padding: 5rem 0;
@@ -168,10 +166,32 @@ const About = () => {
             transition={bounceTransition}
           >
             <CardFront>
-              <ProfileImg src={profileImage} alt="[Your Name]" />
+              <div style={{
+                width: '100%',
+                height: '100%',
+                backgroundColor: '#f0f0f0',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: '2rem',
+                color: '#999'
+              }}>
+                Photo
+              </div>
             </CardFront>
             <CardBack>
-              <ProfileImg src={alternateImage} alt="[Your Name] Alternate" />
+              <div style={{
+                width: '100%',
+                height: '100%',
+                backgroundColor: '#e0e0e0',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: '2rem',
+                color: '#999'
+              }}>
+                Alt Photo
+              </div>
             </CardBack>
           </FlipCard>
         </AboutImageContainer>
