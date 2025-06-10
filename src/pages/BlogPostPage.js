@@ -197,7 +197,9 @@ const BlogPostPage = () => {
         
         setContent(markdownContent);
       })
-      .catch((err) => console.error('Error loading markdown file:', err));
+      .catch((err) => {
+        setContent('Error loading blog post.');
+      });
   }, [slug]);
 
   return (

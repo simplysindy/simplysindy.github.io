@@ -184,7 +184,6 @@ const Contact = () => {
     })
     .catch((error) => {
       alert('Failed to send message. Please try again.');
-      console.error('EmailJS error:', error);
     });
   };
   

@@ -250,11 +250,8 @@ const Publications = () => {
       })
       .then(bibtex => {
         try {
-          console.log('BibTeX data received:', bibtex.substring(0, 100) + '...');
-          
           // Parse the BibTeX data
           const bibData = bibtexParse.toJSON(bibtex);
-          console.log('Parsed BibTeX data:', bibData);
           
           if (!bibData || bibData.length === 0) {
             throw new Error('No publications found in BibTeX file');
@@ -293,12 +290,10 @@ const Publications = () => {
           setPublications(formattedPubs);
           setError(null);
         } catch (err) {
-          console.error('Error parsing BibTeX:', err);
           setError(`Error parsing publications: ${err.message}`);
         }
       })
       .catch(error => {
-        console.error('Error loading publications:', error);
         setError(`Error loading publications: ${error.message}`);
       })
       .finally(() => {
