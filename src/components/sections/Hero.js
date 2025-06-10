@@ -1,6 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
 import { motion } from 'framer-motion';
+import styled from 'styled-components';
 
 // const HeroSection = styled.section`
 //   display: flex;
@@ -76,7 +75,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        Welcome to my portfolio. I'm passionate about technology and creating innovative solutions.
+        Welcome to my personal page.
       </Subtitle>
       <motion.div
         initial={{ opacity: 0, y: -20 }}

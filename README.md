@@ -1,6 +1,6 @@
-# Sindy's Personal Portfolio
+# Sindy's Personal Page
 
-🚧 **Work in Progress** - My personal portfolio website built with React.
+🚧 **Work in Progress** - personal portfolio
 
 Live site: [simplysindy.github.io](https://simplysindy.github.io)
 
