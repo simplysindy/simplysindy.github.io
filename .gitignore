@@ -21,6 +21,7 @@
 
 # personal files
 /personal
+/docs
 
 # debug
 npm-debug.log*
