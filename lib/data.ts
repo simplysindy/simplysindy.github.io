@@ -77,23 +77,21 @@ export const experiencesData = [
 
 export const projectsData: ProjectData[] = [
   {
-    title: "Studio Cuvee Glow",
+    title: "Kube",
     description:
-      "A full-stack creative studio platform built with Next.js and TypeScript. Features a modern design system, dynamic project showcases, and an integrated CMS.",
-    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion"],
-    imageUrl: studioCuveeglowImg,
+      "Real-time crypto sentiment analysis pipeline on Kubernetes. Correlates Reddit sentiment with price movements via NATS JetStream and Grafana dashboards.",
+    tags: ["Python", "Kubernetes", "Docker", "NATS", "Grafana"],
     links: [
-      { label: "Live Site", url: "https://studio.cuveeglow.com/" },
-      { label: "Journal", url: "https://studio.cuveeglow.com/journal" },
+      { label: "GitHub", url: "https://github.com/simplysindy/kube" },
     ],
   },
   {
-    title: "Yanscape",
+    title: "Adversarial AI Security",
     description:
-      "Beauty advent calendar discovery app. Browse, compare, and find the best advent calendars from top beauty brands.",
-    tags: ["React", "TypeScript", "Vite", "Supabase"],
+      "Research on backdoor attacks in neural networks. Implements WaNet attacks and 4 detection methods: Neural Cleanse, STRIP, TABOR, and ABS.",
+    tags: ["Python", "PyTorch", "Neural Networks", "Security"],
     links: [
-      { label: "Live Site", url: "https://yanscape.com" },
+      { label: "GitHub", url: "https://github.com/simplysindy/adversarial-ai-security-detection" },
     ],
   },
   {
@@ -116,21 +114,23 @@ export const projectsData: ProjectData[] = [
     ],
   },
   {
-    title: "Kube",
+    title: "Yanscape",
     description:
-      "Real-time crypto sentiment analysis pipeline on Kubernetes. Correlates Reddit sentiment with price movements via NATS JetStream and Grafana dashboards.",
-    tags: ["Python", "Kubernetes", "Docker", "NATS", "Grafana"],
+      "Beauty advent calendar discovery app. Browse, compare, and find the best advent calendars from top beauty brands.",
+    tags: ["React", "TypeScript", "Vite", "Supabase"],
     links: [
-      { label: "GitHub", url: "https://github.com/simplysindy/kube" },
+      { label: "Live Site", url: "https://yanscape.com" },
     ],
   },
   {
-    title: "Adversarial AI Security",
+    title: "Studio Cuvee Glow",
     description:
-      "Research on backdoor attacks in neural networks. Implements WaNet attacks and 4 detection methods: Neural Cleanse, STRIP, TABOR, and ABS.",
-    tags: ["Python", "PyTorch", "Neural Networks", "Security"],
+      "A full-stack creative studio platform built with Next.js and TypeScript. Features a modern design system, dynamic project showcases, and an integrated CMS.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Framer Motion"],
+    imageUrl: studioCuveeglowImg,
     links: [
-      { label: "GitHub", url: "https://github.com/simplysindy/adversarial-ai-security-detection" },
+      { label: "Live Site", url: "https://studio.cuveeglow.com/" },
+      { label: "Journal", url: "https://studio.cuveeglow.com/journal" },
     ],
   },
   {
