@@ -1,19 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
   images: {
     unoptimized: true,
   },
-  headers: async () => [
-    {
-      source: "/:path*",
-      headers: [
-        {
-          key: "X-Robots-Tag",
-          value: "noindex, nofollow",
-        },
-      ],
-    },
-  ],
 };
 
 module.exports = nextConfig;
