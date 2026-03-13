@@ -9,12 +9,8 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "cuveeglow.com",
-  description: "Rage-quitting",
-  robots: {
-    index: false,
-    follow: false,
-  },
+  title: "Sindy | Portfolio",
+  description: "AI engineer building RAG systems, LLM applications, and data pipelines.",
 };
 
 export default function RootLayout({
