@@ -11,6 +11,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Sindy | Portfolio",
   description: "AI engineer building RAG systems, LLM applications, and data pipelines.",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout({
