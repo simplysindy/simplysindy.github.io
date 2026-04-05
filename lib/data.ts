@@ -77,12 +77,12 @@ export const experiencesData = [
 
 export const projectsData: ProjectData[] = [
   {
-    title: "Kube",
+    title: "Moltbook Archive",
     description:
-      "Real-time crypto sentiment analysis pipeline on Kubernetes. Correlates Reddit sentiment with price movements via NATS JetStream and Grafana dashboards.",
-    tags: ["Python", "Kubernetes", "Docker", "NATS", "Grafana"],
+      "Hybrid search engine over 2.4M posts from Moltbook. Fuses full-text search (PostgreSQL tsvector), semantic search (pgvector + BGE embeddings), and graph-based search (Neo4j with Louvain community detection) via Reciprocal Rank Fusion.",
+    tags: ["Python", "RAG", "pgvector", "Neo4j", "Flask"],
     links: [
-      { label: "GitHub", url: "https://github.com/simplysindy/kube" },
+      { label: "GitHub", url: "https://github.com/simplysindy/moltbook-archive-RAG" },
     ],
   },
   {
@@ -114,12 +114,12 @@ export const projectsData: ProjectData[] = [
     ],
   },
   {
-    title: "Yanscape",
+    title: "Kube",
     description:
-      "Beauty advent calendar discovery app. Browse, compare, and find the best advent calendars from top beauty brands.",
-    tags: ["React", "TypeScript", "Vite", "Supabase"],
+      "Real-time crypto sentiment analysis pipeline on Kubernetes. Correlates Reddit sentiment with price movements via NATS JetStream and Grafana dashboards.",
+    tags: ["Python", "Kubernetes", "Docker", "NATS", "Grafana"],
     links: [
-      { label: "Live Site", url: "https://yanscape.com" },
+      { label: "GitHub", url: "https://github.com/simplysindy/kube" },
     ],
   },
   {

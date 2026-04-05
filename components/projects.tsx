@@ -124,13 +124,13 @@ export default function Projects() {
 
       {/*
         3×3 bento grid (7 projects):
-        ┌──────────────────┐ ┌────────┐
-        │  Studio (wide)   │ │Yanscape│
-        └──────────────────┘ └────────┘
+        ┌──────────────────────┐ ┌──────────┐
+        │ Moltbook RAG (wide)  │ │Adversarial│
+        └──────────────────────┘ └──────────┘
         ┌────────┐ ┌────────┐ ┌────────┐
-        │  ISSS   │ │AI Wolf │ │  Kube  │
-        │ (tall)  │ ├────────┤ ├────────┤
-        │         │ │ Advers │ │ Ether  │
+        │  ISSS  │ │AI Wolf │ │  Kube  │
+        │ (tall) │ ├────────┤ ├────────┤
+        │        │ │ Studio │ │ Ether  │
         └────────┘ └────────┘ └────────┘
       */}
       <div
@@ -140,7 +140,7 @@ export default function Projects() {
           gridTemplateRows: "auto auto auto",
         }}
       >
-        {/* Row 1, Cols 1-2: Studio Cuvee Glow (featured) */}
+        {/* Row 1, Cols 1-2: Moltbook Archive (featured) */}
         <div style={{ gridColumn: "1 / 3", gridRow: "1" }}>
           <BentoCard
             project={projects[0]}
@@ -150,7 +150,7 @@ export default function Projects() {
           />
         </div>
 
-        {/* Row 1, Col 3: Yanscape */}
+        {/* Row 1, Col 3: Adversarial AI */}
         <div style={{ gridColumn: "3", gridRow: "1" }}>
           <BentoCard project={projects[1]} accentIndex={1} delay={0.1} />
         </div>
@@ -170,12 +170,12 @@ export default function Projects() {
           <BentoCard project={projects[3]} accentIndex={3} delay={0.2} />
         </div>
 
-        {/* Row 2, Col 3: Kube */}
+        {/* Row 2, Col 3: Kube (moved from featured) */}
         <div style={{ gridColumn: "3", gridRow: "2" }}>
           <BentoCard project={projects[4]} accentIndex={4} delay={0.25} />
         </div>
 
-        {/* Row 3, Col 2: Adversarial AI */}
+        {/* Row 3, Col 2: Studio Cuvee Glow */}
         <div style={{ gridColumn: "2", gridRow: "3" }}>
           <BentoCard project={projects[5]} accentIndex={5} delay={0.3} />
         </div>
