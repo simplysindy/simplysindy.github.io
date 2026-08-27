@@ -35,12 +35,20 @@ export type ProjectData = {
 
 export const experiencesData = [
   {
+    title: "Data Scientist",
+    location: "Seagate Technology",
+    description:
+      "Supporting data engineering for process data pipelines, buff defect detection modelling, and intern mentorship.",
+    icon: React.createElement(LuBrainCircuit),
+    date: "May 2026 - Present",
+  },
+  {
     title: "Co-Founder",
     location: "Aurevia Capital",
     description:
       "Technical Co-founder, built end-to-end ML system for luxury watch price forecasting.",
     icon: React.createElement(FaReact),
-    date: "Jun 2025 - Present",
+    date: "Jun 2025 - Apr 2026",
   },
   {
     title: "Associate AI Engineer - AIAP",
