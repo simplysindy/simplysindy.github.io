@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Data Scientist",
     location: "Seagate Technology",
     description:
-      "Supporting data engineering for process data pipelines, buff defect detection modelling, and intern mentorship.",
+      "Building an LLM analytics agent that lets fab engineers query production data in plain language, an automated defect screening pipeline covering ~800K disks a month, and a parser that loads machine tracking logs from seven production cells into Hadoop.",
     icon: React.createElement(LuBrainCircuit),
     date: "May 2026 - Present",
   },
